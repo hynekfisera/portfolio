@@ -5,7 +5,6 @@ export default function Home() {
     <>
       <Head>
         <title>Hynek Fišera | Web Development {"&"} UX Design</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
     </>
   );
