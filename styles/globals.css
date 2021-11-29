@@ -4,14 +4,14 @@
 
 @layer base {
   .btn {
-    @apply px-5 py-2 text-center transition duration-200 border rounded-md focus:outline-none;
+    @apply block px-6 py-2.5 font-medium transition duration-300 border rounded-md focus:outline-none;
   }
 
   .btn-primary {
-    @apply font-medium text-white bg-black border-transparent  hover:bg-white hover:text-black hover:border-black;
+    @apply text-white bg-black border-transparent  hover:bg-white hover:text-black hover:border-black;
   }
 
   .btn-secondary {
-    @apply text-gray-600 border-gray-300 hover:border-gray-800 hover:text-gray-800;
+    @apply text-gray-700 border-gray-400 hover:border-gray-700 hover:text-gray-800;
   }
 }
