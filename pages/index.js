@@ -85,7 +85,7 @@ export default function Home() {
       <Head>
         <title>Hynek Fišera | Web Development {"&"} UX Design</title>
       </Head>
-      <section id="aboutme" className="my-16">
+      <section id="aboutme" className="py-16">
         <div className="max-w-screen-xl mx-auto sm:grid sm:grid-cols-2 px-4">
           <div className="my-auto">
             <h1 className="text-3xl font-semibold text-gray-800">
@@ -106,7 +106,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="my-16">
+      <section className="py-8" id="portfolio">
         <div className="max-w-screen-xl mx-auto px-4">
           <h2 className="text-center text-4xl font-bold text-gray-700 mb-6">Portfolio</h2>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-4">
@@ -141,9 +141,9 @@ export default function Home() {
                       </div>
                       <p className="text-2xl mb-3">{project.description}</p>
                       <div className="flex">
-                        {project.links.map((link) => {
+                        {project.links.map((link, i) => {
                           return (
-                            <Link href={link.href}>
+                            <Link href={link.href} key={i}>
                               <a className={`text-xl font-semibold transition duration-200 ${link.type === "primary" ? "text-blue-500 hover:text-blue-700" : "text-gray-500 hover:text-gray-700"}`}>{link.text}</a>
                             </Link>
                           );

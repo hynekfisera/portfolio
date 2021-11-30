@@ -16,10 +16,7 @@ export default function Header() {
               <a className="text-lg font-medium mr-4 hover:underline">Portfolio</a>
             </Link>
             <Link href="/#aboutme">
-              <a className="text-lg font-medium mr-4 hover:underline">About</a>
-            </Link>
-            <Link href="/#projects">
-              <a className="text-lg font-medium mr-4 hover:underline">Projects</a>
+              <a className="text-lg font-medium mr-4 hover:underline">About me</a>
             </Link>
           </div>
           <Link href="https://twitter.com/hynekfisera">
