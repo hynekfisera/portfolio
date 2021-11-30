@@ -5,8 +5,8 @@ import { faGithub, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-br
 
 export default function Header() {
   return (
-    <header className="p-5 border-b border-gray-300">
-      <div className="max-w-screen-xl mx-auto flex justify-between items-center">
+    <header className="py-5 border-b border-gray-300">
+      <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <Link href="/">
           <a className="text-xl sm:text-2xl font-semibold hover:text-gray-700 transition duration-200">Hynek Fišera</a>
         </Link>

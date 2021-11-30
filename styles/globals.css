@@ -4,7 +4,7 @@
 
 @layer base {
   .btn {
-    @apply block px-6 py-2.5 font-medium transition duration-300 border rounded-md focus:outline-none;
+    @apply block px-6 py-2.5 text-sm font-medium transition duration-300 border rounded-md focus:outline-none;
   }
 
   .btn-primary {
