@@ -128,8 +128,8 @@ export default function Home() {
             {projects.map((project) => {
               if (project.categories.includes(portfolio)) {
                 return (
-                  <div key={project.name} className="flex flex-col sm:even:flex-row-reverse sm:flex-row mb-16 sm:mb-0">
-                    <div className="sm:w-1/2 sm:px-16">
+                  <div key={project.name} className="flex flex-col sm:even:flex-row-reverse sm:flex-row mb-16 sm:mb-12 md:mb-0">
+                    <div className="sm:w-1/2 sm:px-4 md:px-16">
                       <Image src={project.img} alt={project.name} />
                     </div>
                     <div className="sm:w-1/2 flex flex-col justify-center">
