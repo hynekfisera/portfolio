@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiscord, faGithub, faInstagram, faLinkedin, faTwitch, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faDiscord, faGithub, faInstagram, faLinkedin, faSpotify, faTwitch, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default function Links() {
@@ -46,6 +46,11 @@ export default function Links() {
       title: "Discord",
       icon: faDiscord,
       href: "https://arfi.cz/discord",
+    },
+    {
+      title: "Spotify",
+      icon: faSpotify,
+      href: "https://open.spotify.com/user/hynekfisera",
     },
   ];
 
