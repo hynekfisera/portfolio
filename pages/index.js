@@ -92,10 +92,10 @@ export default function Home() {
               Hey, I'm <span className="text-blue-600">Hynek</span>!
             </h1>
             <p className="text-lg text-gray-900 mt-4">
-              I'm a Junior Web Developer and I love creating cool projects with <span className="font-semibold">React</span>, <span className="font-semibold">Next.js</span> and <span className="font-semibold">Tailwind</span>. I also have experience in UI {"&"} UX design and video editing.
+              I'm a Junior Web Developer and I love creating cool projects with <span className="font-semibold">React</span>, <span className="font-semibold">Next.js</span> and <span className="font-semibold">Tailwind</span>. I also have experience with UI {"&"} UX design and video editing.
             </p>
             <p className="text-lg text-gray-900 mt-2">
-              You can find some of the projects I've been working on below or you can check my <span className="font-semibold">GitHub</span> where I'm sharing my coding-related projects!
+              You can find some of the projects I've worked on below or you can check my <span className="font-semibold">GitHub</span> where I share my coding projects!
             </p>
             <p className="text-lg text-gray-900 mt-2">
               I'm currently working on the <span className="font-semibold">Swiftpass</span> app and livestreaming the development on my <span className="font-semibold">Twitch</span> channel.
