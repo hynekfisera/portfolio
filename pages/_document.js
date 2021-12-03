@@ -21,6 +21,8 @@ class MyDocument extends Document {
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3b82f6" />
           <meta name="msapplication-TileColor" content="#3b82f6" />
           <meta name="theme-color" content="#ffffff" />
+          <meta name="description" content="My name is Hynek and I am a Web Developer from Czech Republic. I'm also interested in logo design, UI/UX design and branding." />
+          <meta name="robots" content="index, follow" />
         </Head>
         <body>
           <Header />

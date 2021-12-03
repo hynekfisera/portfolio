@@ -60,7 +60,7 @@ export default function Home() {
       name: "Nylium",
       description: "I coded a website for the Nylium Survival minecraft server",
       links: [],
-      categories: ["featured", "development"],
+      categories: ["featured", "development", "myprojects"],
     },
     {
       img: Download2Image,
@@ -86,14 +86,19 @@ export default function Home() {
         <title>Hynek Fišera | Web Development {"&"} UX Design</title>
       </Head>
       <section id="aboutme" className="py-16">
-        <div className="max-w-screen-xl mx-auto sm:grid sm:grid-cols-2 px-4">
+        <div className="max-w-screen-lg mx-auto px-4">
           <div className="my-auto">
             <h1 className="text-3xl font-semibold text-gray-800">
               Hey, I'm <span className="text-blue-600">Hynek</span>!
             </h1>
-            <p className="text-lg text-gray-900 mt-4">I'm a Junior Full Stack Developer who loves creating cool projects with React, Next.js and Tailwind, and also have 6+ years of experience in graphic design and video editing.</p>
+            <p className="text-lg text-gray-900 mt-4">
+              I'm a Junior Web Developer and I love creating cool projects with <span className="font-semibold">React</span>, <span className="font-semibold">Next.js</span> and <span className="font-semibold">Tailwind</span>. I also have experience in UI {"&"} UX design and video editing.
+            </p>
             <p className="text-lg text-gray-900 mt-2">
-              Currently working on the <span className="font-semibold">Flairleap</span> app.
+              You can find some of the projects I've been working on below or you can check my <span className="font-semibold">GitHub</span> where I'm sharing my coding-related projects!
+            </p>
+            <p className="text-lg text-gray-900 mt-2">
+              I'm currently working on the <span className="font-semibold">Swiftpass</span> app and livestreaming the development on my <span className="font-semibold">Twitch</span> channel.
             </p>
             <div className="flex flex-wrap mt-4">
               <Link href="mailto:hynek@oneflair.co">
