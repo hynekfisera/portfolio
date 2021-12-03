@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitch, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
   return (
@@ -20,23 +20,28 @@ export default function Header() {
             </Link>
           </div>
           <Link href="https://twitter.com/hynekfisera">
-            <a className="w-6 mr-2 ml-1 text-gray-500 hover:text-gray-700 transition duration-200">
-              <FontAwesomeIcon icon={faTwitter} />
+            <a className="w-5 mr-2 ml-1 text-gray-500 hover:text-gray-700 transition duration-200">
+              <FontAwesomeIcon icon={faTwitter} className="fa-lg" />
             </a>
           </Link>
           <Link href="https://youtube.com/phpmyarfi">
-            <a className="w-6 mr-2 text-gray-500 hover:text-gray-700 transition duration-200">
-              <FontAwesomeIcon icon={faYoutube} />
+            <a className="w-5 mr-2 text-gray-500 hover:text-gray-700 transition duration-200">
+              <FontAwesomeIcon icon={faYoutube} className="fa-lg" />
+            </a>
+          </Link>
+          <Link href="https://twitch.tv/arfilive">
+            <a className="w-5 mr-2 text-gray-500 hover:text-gray-700 transition duration-200">
+              <FontAwesomeIcon icon={faTwitch} className="fa-lg" />
             </a>
           </Link>
           <Link href="https://linkedin.com/in/hynekfisera">
-            <a className="w-6 mr-2 text-gray-500 hover:text-gray-700 transition duration-200">
-              <FontAwesomeIcon icon={faLinkedin} />
+            <a className="w-5 mr-2 text-gray-500 hover:text-gray-700 transition duration-200">
+              <FontAwesomeIcon icon={faLinkedin} className="fa-lg" />
             </a>
           </Link>
           <Link href="https://github.com/hynekfisera">
-            <a className="w-6 text-gray-500 hover:text-gray-700 transition duration-200">
-              <FontAwesomeIcon icon={faGithub} />
+            <a className="w-5 text-gray-500 hover:text-gray-700 transition duration-200">
+              <FontAwesomeIcon icon={faGithub} className="fa-lg" />
             </a>
           </Link>
         </nav>
