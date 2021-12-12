@@ -17,11 +17,24 @@ import Download2Logo from "/public/portfolio/default.png";
 import Download2Image from "/public/portfolio/portfolioDownload2.png";
 import UtilolLogo from "/public/portfolio/default.png";
 import UtilolImage from "/public/portfolio/portfolioUtilol.png";
+import SwiftpassLogo from "/public/portfolio/vercel.png";
+import SwiftpassImage from "/public/portfolio/portfolioSwiftpass.png";
 
 export default function Home() {
   const [portfolio, setPortfolio] = useState("featured");
 
   const projects = [
+    {
+      img: SwiftpassImage,
+      logo: SwiftpassLogo,
+      name: "Swiftpass",
+      description: "Smart password generator which can generate not only strong, but also quick-to-enter passwords.",
+      links: [
+        { text: "Learn more", href: "https://swiftpass.hynekfisera.com/", type: "primary" },
+        { text: "Source code", href: "http://github.com/hynekfisera/swiftpass", type: "secondary" },
+      ],
+      categories: ["featured", "development", "myprojects"],
+    },
     {
       img: AcewillImage,
       logo: AcewillLogo,
@@ -149,7 +162,7 @@ export default function Home() {
                         {project.links.map((link, i) => {
                           return (
                             <Link href={link.href} key={i}>
-                              <a className={`text-xl font-semibold transition duration-200 ${link.type === "primary" ? "text-indigo-500 hover:text-indigo-700" : "text-gray-500 hover:text-gray-700"}`}>{link.text}</a>
+                              <a className={`text-xl font-bold mr-3 transition duration-200 ${link.type === "primary" ? "text-indigo-600 hover:text-indigo-800" : "text-gray-600 hover:text-gray-700"}`}>{link.text}</a>
                             </Link>
                           );
                         })}
