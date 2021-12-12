@@ -98,7 +98,7 @@ export default function Home() {
               You can find some of the projects I've worked on below or you can check my <span className="font-semibold">GitHub</span> where I share my coding projects!
             </p>
             <p className="text-lg text-gray-900 mt-2">
-              I'm currently working on the <span className="font-semibold">Swiftpass</span> app and livestreaming the development on my <span className="font-semibold">Twitch</span> channel.
+              I'm currently working on the <span className="font-semibold">Next-Tick</span> app and livestreaming the development on my <span className="font-semibold">Twitch</span> channel.
             </p>
             <div className="flex flex-wrap mt-4">
               <Link href="mailto:hynek@oneflair.co">
