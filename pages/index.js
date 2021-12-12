@@ -89,7 +89,7 @@ export default function Home() {
         <div className="max-w-screen-lg mx-auto px-4">
           <div className="my-auto">
             <h1 className="text-3xl font-semibold text-gray-800">
-              Hey, I'm <span className="text-blue-600">Hynek</span>!
+              Hey, I'm <span className="text-indigo-600">Hynek</span>!
             </h1>
             <p className="text-lg text-gray-900 mt-4">
               I'm a Junior Web Developer and I love creating cool projects with <span className="font-semibold">React</span>, <span className="font-semibold">Next.js</span> and <span className="font-semibold">Tailwind</span>. I also have experience with UI {"&"} UX design and video editing.
@@ -115,16 +115,16 @@ export default function Home() {
         <div className="max-w-screen-xl mx-auto px-4">
           <h2 className="text-center text-4xl font-bold text-gray-700 mb-6">Portfolio</h2>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-4">
-            <div onClick={() => setPortfolio("featured")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "featured" ? "bg-blue-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
+            <div onClick={() => setPortfolio("featured")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "featured" ? "bg-indigo-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
               Featured
             </div>
-            <div onClick={() => setPortfolio("development")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "development" ? "bg-blue-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
+            <div onClick={() => setPortfolio("development")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "development" ? "bg-indigo-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
               Development
             </div>
-            <div onClick={() => setPortfolio("design")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "design" ? "bg-blue-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
+            <div onClick={() => setPortfolio("design")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "design" ? "bg-indigo-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
               Design
             </div>
-            <div onClick={() => setPortfolio("myprojects")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "myprojects" ? "bg-blue-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
+            <div onClick={() => setPortfolio("myprojects")} className={`text-sm text-center py-2 cursor-pointer rounded-md ${portfolio === "myprojects" ? "bg-indigo-500 border border-transparent text-white" : "text-gray-500 border border-gray-300 transition duration-200 hover:bg-gray-100"}`}>
               My Projects
             </div>
           </div>
@@ -149,7 +149,7 @@ export default function Home() {
                         {project.links.map((link, i) => {
                           return (
                             <Link href={link.href} key={i}>
-                              <a className={`text-xl font-semibold transition duration-200 ${link.type === "primary" ? "text-blue-500 hover:text-blue-700" : "text-gray-500 hover:text-gray-700"}`}>{link.text}</a>
+                              <a className={`text-xl font-semibold transition duration-200 ${link.type === "primary" ? "text-indigo-500 hover:text-indigo-700" : "text-gray-500 hover:text-gray-700"}`}>{link.text}</a>
                             </Link>
                           );
                         })}
