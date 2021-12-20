@@ -65,7 +65,7 @@ export default function Home() {
       name: "VRCC",
       description: "I developed a website for the VR Component Constructor project",
       links: [{ text: "The client", href: "http://micromium.net/", type: "secondary" }],
-      categories: ["featured", "development"],
+      categories: ["development"],
     },
     {
       img: NyliumImage,

@@ -8,15 +8,15 @@ export default function Header() {
     <header className="py-5 border-b border-gray-300">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <Link href="/">
-          <a className="text-xl sm:text-2xl font-semibold hover:text-gray-700 transition duration-200">Hynek Fišera</a>
+          <a className="text-xl sm:text-2xl font-semibold hover:text-gray-800 transition duration-200">Hynek Fišera</a>
         </Link>
         <nav className="flex items-center">
           <div className="hidden sm:block">
             <Link href="/#portfolio">
-              <a className="text-lg font-medium mr-4 hover:underline">Portfolio</a>
+              <a className="text-lg font-medium mr-4 hover:underline hover:decoration-2 hover:decoration-indigo-500">Portfolio</a>
             </Link>
             <Link href="/#aboutme">
-              <a className="text-lg font-medium mr-4 hover:underline">About me</a>
+              <a className="text-lg font-medium mr-4 hover:underline hover:decoration-2 hover:decoration-indigo-500">About me</a>
             </Link>
           </div>
           <Link href="https://twitter.com/hynekfisera">
