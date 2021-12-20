@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   .btn {
     @apply block px-6 py-2.5 text-sm font-semibold transition duration-300 border rounded-md focus:outline-none;
   }
