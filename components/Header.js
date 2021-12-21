@@ -8,7 +8,9 @@ export default function Header() {
     <header className="py-5 border-b border-gray-300">
       <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4">
         <Link href="/">
-          <a className="text-xl sm:text-2xl font-semibold hover:text-gray-800 transition duration-200">Hynek Fišera</a>
+          <a className="h-8 w-10 flex items-center transition duration-200 hover:opacity-90">
+            <img src="/assets/hf_indigo.svg" alt="Logo" />
+          </a>
         </Link>
         <nav className="flex items-center">
           <div className="hidden sm:block">
