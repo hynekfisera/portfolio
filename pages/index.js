@@ -111,10 +111,14 @@ export default function Home() {
               You can find some of the projects I've worked on below or you can check my <span className="font-semibold">GitHub</span> where I share my coding projects!
             </p>
             <p className="text-lg text-gray-900 mt-2">
-              I'm currently working on the <span className="font-semibold">Next-Tick</span> app and livestreaming the development on my <span className="font-semibold">Twitch</span> channel.
+              I'm currently working on the <span className="font-semibold">Flairleap</span> app (
+              <Link href="https://flairleap.com/">
+                <a className="text-indigo-500 hover:underline">flairleap.com</a>
+              </Link>
+              ).
             </p>
             <div className="flex flex-wrap mt-4">
-              <Link href="mailto:hynek@oneflair.co">
+              <Link href="mailto:hynek@flairleap.com">
                 <a className="btn btn-primary mr-3 mb-2">Let's get in touch</a>
               </Link>
               <Link href="https://github.com/hynekfisera">
