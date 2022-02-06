@@ -9,7 +9,7 @@ export default function Footer() {
         <hr className="border-gray-300 mb-8" />
         <div className="sm:flex sm:justify-between">
           <div>
-            &copy; 2021 | Made with <FontAwesomeIcon icon={faMugHot} className="w-5 inline-block text-gray-700" /> in{" "}
+            &copy; {new Date().getFullYear()} | Made with <FontAwesomeIcon icon={faMugHot} className="w-5 inline-block text-gray-700" /> in{" "}
             <a href="https://www.google.com/maps/place/Hradec+Kr%C3%A1lov%C3%A9/" target="_blank" rel="noreferrer noopener" className="hover:underline">
               Hradec Králové
             </a>
