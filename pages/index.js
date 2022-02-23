@@ -13,8 +13,8 @@ import VrccLogo from "/public/portfolio/vrcc.png";
 import VrccImage from "/public/portfolio/portfolioVrcc.webp";
 import NyliumLogo from "/public/portfolio/nylium.png";
 import NyliumImage from "/public/portfolio/portfolioNylium.webp";
-import Download2Logo from "/public/portfolio/default.png";
-import Download2Image from "/public/portfolio/portfolioDownload2.png";
+import EkoLogo from "/public/portfolio/default.png";
+import EkoImage from "/public/portfolio/portfolioEko.png";
 import UtilolLogo from "/public/portfolio/default.png";
 import UtilolImage from "/public/portfolio/portfolioUtilol.png";
 import SwiftpassLogo from "/public/portfolio/vercel.png";
@@ -75,20 +75,24 @@ export default function Home() {
       links: [],
       categories: ["featured", "development", "myprojects"],
     },
-    {
-      img: Download2Image,
-      logo: Download2Logo,
-      name: "Download v2",
-      description: "Download v2 is a full-stack MERN application used to share links and files.",
-      links: [{ text: "Source code", href: "https://github.com/hynekfisera/download-new", type: "secondary" }],
-      categories: ["development", "myprojects"],
-    },
+
     {
       img: UtilolImage,
       logo: UtilolLogo,
       name: "Utilol",
       description: "Very simple project and my first experience with using the Riot Games API.",
       links: [{ text: "Source code", href: "https://github.com/hynekfisera/utilol", type: "secondary" }],
+      categories: ["development", "myprojects"],
+    },
+    {
+      img: EkoImage,
+      logo: EkoLogo,
+      name: "Eko-Odpisy",
+      description: "School project - A calculator for tax depreciation.",
+      links: [
+        { text: "Learn more", href: "https://eko-odpisy.hynekfisera.com/", type: "primary" },
+        { text: "Source code", href: "https://github.com/hynekfisera/eko-odpisy", type: "secondary" },
+      ],
       categories: ["development", "myprojects"],
     },
   ];
